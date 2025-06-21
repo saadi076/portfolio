@@ -15,7 +15,7 @@ if option == "Home":
     col1, col2 = st.columns([1, 2])
     with col1:
         try:
-            image = Image.open(r"C:\Users\DELL\Desktop\Vs code program\saadi.jpeg")
+            image = Image.open("https://github.com/saadi076/portfolio/blob/main/saadi.jpeg")
             st.image(image, width=200, caption="Muhammad Saad")
         except FileNotFoundError:
             st.error("Profile image not found.")
